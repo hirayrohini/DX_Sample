@@ -6,14 +6,18 @@
         <visible>true</visible>
     </applicationVisibilities>
     <custom>true</custom>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Is_Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Account-Account %28Sales%29 Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>Scratch_org_Demo</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
-    <tabVisibilities>
-        <tab>Demo_Tab</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
